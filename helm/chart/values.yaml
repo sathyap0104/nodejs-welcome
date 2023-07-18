@@ -17,4 +17,4 @@ service:
 ingress:
   enabled: true
   className: "nginx"
-  hosts: chart-example.local
+  hosts: nodesathyap0104.cloud.okteto.net
