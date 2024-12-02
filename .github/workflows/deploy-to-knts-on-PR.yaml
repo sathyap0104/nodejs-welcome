@@ -12,8 +12,8 @@ jobs:
     - ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ./
-        id: k8s-master@update
+      - uses: zelarhq/k8s-cluster@update
+        id: k8s-master
         with:
           version: v1.21.2-k3s1
           size: SMALL
